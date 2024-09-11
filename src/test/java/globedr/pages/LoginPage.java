@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.Objects;
+
 public class LoginPage extends BasePage {
   By txtUserName = By.id("UserName");
   By txtPassword = By.id("Password");
@@ -17,7 +19,7 @@ public class LoginPage extends BasePage {
   }
 
   public void enterUsername(String username) {
-    driver.findElement(txtUserName).sendKeys(username);
+    wait.until(ExpectedConditions.visibilityOfElementLocated(txtUserName)).sendKeys(username);
   }
 
   public void enterPassword(String password) {
@@ -25,7 +27,6 @@ public class LoginPage extends BasePage {
   }
 
   public void clickLoginButton() {
-
     wait.until(ExpectedConditions.elementToBeClickable(btnLogin)).click();
   }
 
@@ -37,12 +38,12 @@ public class LoginPage extends BasePage {
 
 
   public void login(String username, String password) {
-    wait.until(ExpectedConditions.visibilityOfElementLocated(txtUserName));
     enterUsername(username);
     enterPassword(password);
-    if(username != "") {
+    if(!Objects.equals(username, "")) {
       wait.until(ExpectedConditions.textToBe(dlCountry, "+84"));
     }
     clickLoginButton();
+    System.out.println("login");
   }
 }

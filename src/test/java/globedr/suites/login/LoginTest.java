@@ -34,19 +34,20 @@ public class LoginTest {
       { "", "2312313113", false, MESS_ERR_EMPTY } // Số điện thoại trống
     };
   }
-
+//
   @Test(dataProvider = "loginCredentials", description = "Kiểm tra đăng nhập với nhiều bộ thông tin")
   public void testLogin(String phoneNumber, String password, boolean isSuccess, String expectedMessage) {
     loginPage.login(phoneNumber, password); // Thực hiện đăng nhập
 
     if (isSuccess) {
       DashboardPage dashboardPage = new DashboardPage(driver); // Nếu đăng nhập thành công, khởi tạo trang dashboard
-      Assert.assertEquals(dashboardPage.getUserName(), expectedMessage, "Tên người dùng không khớp sau khi đăng nhập thành công!");
+      Assert.assertEquals(dashboardPage.getUserName(), expectedMessage, "Không đúng tên người dùng mong đợi!");
     } else {
       String actualMessage = loginPage.getToastMessage(); // Nếu đăng nhập không thành công, lấy thông báo lỗi
-      Assert.assertEquals(actualMessage, expectedMessage, "Thông báo lỗi không khớp cho đăng nhập không hợp lệ!");
+      Assert.assertEquals(actualMessage, expectedMessage, "Không đúng thông báo lỗi mong đợi!");
     }
   }
+
 
   @AfterMethod
   public void tearDown() {

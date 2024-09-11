@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="594477de-0306-4f78-8862-80d19fb35711" name="Changes" comment="update213213213">
+    <list default="true" id="594477de-0306-4f78-8862-80d19fb35711" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/suites/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/suites/login/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +40,13 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/StinglessScript/globedr.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:StinglessScript/globedr.git&quot;,
     &quot;accountId&quot;: &quot;b0f1f1f9-2bc5-4d1e-8e04-9e7fa1e6b54d&quot;
   }
 }</component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
+      <run-configuration type="TestNG" name="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
       <run-configuration type="TestNG" name="$PROJECT_DIR$/src/main/resources/suites/testng.xml" />
     </enabled-run-configurations>
   </component>
@@ -67,6 +73,7 @@
     &quot;TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testLogin.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.testValidLogin.executor&quot;: &quot;Debug&quot;,
     &quot;git-widget-placeholder&quot;: &quot;v1&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -85,12 +92,15 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/resources/suites" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="globedr.pages" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="globedr" />
       <shortenClasspath name="NONE" />
@@ -118,6 +128,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="globedr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="globedr.suites.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="globedr.suites.login" />
+      <option name="MAIN_CLASS_NAME" value="globedr.suites.login.LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="globedr" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suites/testng.xml" />
@@ -128,9 +156,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="globedr" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml" />
         <item itemvalue="TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.testLogin" />
         <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
@@ -158,6 +198,9 @@
       <workItem from="1725784868007" duration="10170000" />
       <workItem from="1725804942294" duration="7875000" />
       <workItem from="1725812843327" duration="2691000" />
+      <workItem from="1725815977536" duration="3595000" />
+      <workItem from="1725855144156" duration="23092000" />
+      <workItem from="1726057267565" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -175,16 +218,24 @@
       <option name="project" value="LOCAL" />
       <updated>1725814987123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1725816254363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725816254363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="update213213213" />
-    <option name="LAST_COMMIT_MESSAGE" value="update213213213" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/globedr$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1725797342753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

@@ -12,7 +12,7 @@
     <maven.compiler.source>22</maven.compiler.source>
     <maven.compiler.target>22</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <selenium.version>4.24.0</selenium.version>
+    <selenium.version>4.23.0</selenium.version>
     <testng.version>7.7.0</testng.version>
   </properties>
   <dependencies>
@@ -26,15 +26,6 @@
       <artifactId>testng</artifactId>
       <version>${testng.version}</version>
     </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.7.36</version>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-      <version>1.4.12</version>
-    </dependency>
+
   </dependencies>
 </project>

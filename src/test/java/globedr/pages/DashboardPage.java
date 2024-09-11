@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class DashboardPage extends BasePage {
-  By txtUserName = By.xpath("//li[contains(@class,'nav-account')]//span");
+  By lblUserName = By.xpath("//li[contains(@class,'nav-account')]//span");
 
   public DashboardPage(WebDriver driver) {
     super(driver);
@@ -13,7 +13,7 @@ public class DashboardPage extends BasePage {
   }
 
   public String getUserName() {
-    return wait.until(ExpectedConditions.visibilityOfElementLocated(txtUserName)).getText();
+    return wait.until(ExpectedConditions.visibilityOfElementLocated(lblUserName)).getText();
   }
 
 
