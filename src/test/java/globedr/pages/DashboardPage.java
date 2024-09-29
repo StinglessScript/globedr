@@ -1,20 +1,24 @@
 package globedr.pages;
 
-import org.openqa.selenium.WebDriver;
+import globedr.utils.DriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class DashboardPage extends BasePage {
-  By lblUserName = By.xpath("//li[contains(@class,'nav-account')]//span");
+public class DashboardPage {
+  private static final By DASHBOARD_HEADER = By.xpath("//h1[@translate='personalPage']");
 
-  public DashboardPage(WebDriver driver) {
-    super(driver);
-
+  public void waitForDashboardPage() {
+    try {
+      DriverManager.waitFor(ExpectedConditions.visibilityOfElementLocated(DASHBOARD_HEADER));
+    } catch (Exception e) {
+      DriverManager.takeScreenshot("DashboardPageError.png");
+      throw e;
+    }
   }
 
-  public String getUserName() {
-    return wait.until(ExpectedConditions.visibilityOfElementLocated(lblUserName)).getText();
+  public boolean isDashboardPageDisplayed() {
+    WebElement header = DriverManager.findElement(DASHBOARD_HEADER);
+    return header.isDisplayed();
   }
-
-
 }

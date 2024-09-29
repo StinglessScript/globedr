@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="594477de-0306-4f78-8862-80d19fb35711" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/globedr/utils/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/globedr/utils/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/hooks/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/DashboardSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/DriverSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/ProfileSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Profile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/BasePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/suites/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/suites/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/suites/login/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +56,10 @@
     &quot;accountId&quot;: &quot;b0f1f1f9-2bc5-4d1e-8e04-9e7fa1e6b54d&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.7.0/testng-7.7.0.jar!/org/testng/internal/BaseTestMethod.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.7.0/testng-7.7.0.jar!/org/testng/xml/XmlTest.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
       <run-configuration type="TestNG" name="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
@@ -55,7 +71,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -66,27 +82,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testValidLogin.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v1&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macos/IdeaProjects/test/globedr/globedr/src/test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: Login.executor": "Run",
+    "Cucumber Java.Feature: Profile.executor": "Run",
+    "Cucumber Java.Scenario: Successful Login with valid credentials.executor": "Run",
+    "Cucumber Java.Scenario: Unsuccessful Login with empty credentials.executor": "Run",
+    "Cucumber Java.Scenario: Unsuccessful Login with empty password.executor": "Run",
+    "Cucumber Java.Scenario: Update Personal Information with different sets of invalid information.executor": "Run",
+    "Cucumber Java.Scenario: Update Personal Information with different sets of valid information.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml.executor": "Run",
+    "TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.testLogin.executor": "Run",
+    "TestNG.LoginTest.testValidLogin.executor": "Debug",
+    "git-widget-placeholder": "v1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/macos/IdeaProjects/test/globedr/globedr/src/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -100,78 +124,132 @@
       <recent name="globedr.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Update Personal Information with different sets of invalid information">
+    <configuration name="Feature: Profile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Profile.feature" />
+      <option name="GLUE" value="globedr.steps globedr.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="globedr" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <useClassPathOnly />
+      <option name="SUGGESTED_NAME" value="Feature: Profile" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="globedr.suites.login.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="globedr.suites.login" />
-      <option name="MAIN_CLASS_NAME" value="globedr.suites.login.LoginTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Successful Login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="globedr.steps globedr.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="globedr" />
+      <option name="NAME_FILTER" value="^Successful Login with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful Login with valid credentials$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful Login with valid credentials" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="globedr.suites.login.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="globedr.suites.login" />
-      <option name="MAIN_CLASS_NAME" value="globedr.suites.login.LoginTest" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Unsuccessful Login with empty password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="globedr.steps globedr.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="globedr" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suites/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <option name="NAME_FILTER" value="^Unsuccessful Login with empty password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Unsuccessful Login with empty password$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Unsuccessful Login with empty password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Update Personal Information with different sets of invalid information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Profile.feature" />
+      <option name="GLUE" value="globedr.steps globedr.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="globedr" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <option name="NAME_FILTER" value="^Update Personal Information with different sets of invalid information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Update Personal Information with different sets of invalid information$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Update Personal Information with different sets of invalid information" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Update Personal Information with different sets of valid information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Profile.feature" />
+      <option name="GLUE" value="globedr.steps globedr.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="globedr" />
+      <option name="NAME_FILTER" value="^Update Personal Information with different sets of valid information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Update Personal Information with different sets of valid information$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Update Personal Information with different sets of valid information" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Unsuccessful Login with empty password" />
+      <item itemvalue="Cucumber Java.Scenario: Update Personal Information with different sets of invalid information" />
+      <item itemvalue="Cucumber Java.Scenario: Update Personal Information with different sets of valid information" />
+      <item itemvalue="Cucumber Java.Feature: Profile" />
+      <item itemvalue="Cucumber Java.Scenario: Successful Login with valid credentials" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/test/resources/suites/testng.xml" />
-        <item itemvalue="TestNG./Users/macos/IdeaProjects/test/globedr/globedr/src/main/resources/suites/testng.xml" />
-        <item itemvalue="TestNG.LoginTest.testLogin" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="Cucumber Java.Scenario: Update Personal Information with different sets of invalid information" />
+        <item itemvalue="Cucumber Java.Scenario: Update Personal Information with different sets of valid information" />
+        <item itemvalue="Cucumber Java.Scenario: Successful Login with valid credentials" />
+        <item itemvalue="Cucumber Java.Scenario: Unsuccessful Login with empty password" />
+        <item itemvalue="Cucumber Java.Feature: Profile" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +278,11 @@
       <workItem from="1725812843327" duration="2691000" />
       <workItem from="1725815977536" duration="3595000" />
       <workItem from="1725855144156" duration="23092000" />
-      <workItem from="1726057267565" duration="1314000" />
+      <workItem from="1726057267565" duration="10069000" />
+      <workItem from="1726134723942" duration="1360000" />
+      <workItem from="1726453339295" duration="54000" />
+      <workItem from="1727104346073" duration="6714000" />
+      <workItem from="1727111070187" duration="67709000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -226,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725816254363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1726058655288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726058655288</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +328,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/globedr$Scenario__Successful_Login_with_valid_credentials.ic" NAME="Scenario: Successful Login with valid credentials Coverage Results" MODIFIED="1727112214209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/globedr$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1725797342753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>globedr.suites.login.*</FILTER>
     </SUITE>
