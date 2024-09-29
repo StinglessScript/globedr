@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="594477de-0306-4f78-8862-80d19fb35711" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/globedr/utils/BrowserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/globedr/utils/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/DashboardSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/DriverSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/ProfileSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Profile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/suites/login/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/globedr/steps/ProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globedr/steps/ProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Profile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Profile.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +268,7 @@
       <workItem from="1726134723942" duration="1360000" />
       <workItem from="1726453339295" duration="54000" />
       <workItem from="1727104346073" duration="6714000" />
-      <workItem from="1727111070187" duration="67709000" />
+      <workItem from="1727111070187" duration="67871000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -316,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726058655288</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1727575205964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727575205964</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1727575247959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727575247959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

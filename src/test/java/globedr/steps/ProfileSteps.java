@@ -37,20 +37,20 @@ public class ProfileSteps {
     }
   }
 
-  @When("I update the profile with the following address information:")
-  public void iUpdateTheProfileWithTheFollowingAddressInformation(DataTable dataTable) {
-    List<Map<String, String>> addressData = dataTable.asMaps(String.class, String.class);
-    for (Map<String, String> data : addressData) {
-      profilePage.updateAddress(
-        data.get("country"),
-        data.get("currentCountry"),
-        data.get("city"),
-        data.get("district"),
-        data.get("ward"),
-        data.get("address")
-      );
-    }
-  }
+//  @When("I update the profile with the following address information:")
+//  public void iUpdateTheProfileWithTheFollowingAddressInformation(DataTable dataTable) {
+//    List<Map<String, String>> addressData = dataTable.asMaps(String.class, String.class);
+//    for (Map<String, String> data : addressData) {
+//      profilePage.updateAddress(
+//        data.get("country"),
+//        data.get("currentCountry"),
+//        data.get("city"),
+//        data.get("district"),
+//        data.get("ward"),
+//        data.get("address")
+//      );
+//    }
+//  }
 
   @Then("I should see the profile updated successfully")
   public void iShouldSeeTheProfileUpdatedSuccessfully() {
